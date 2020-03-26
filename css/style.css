@@ -1,0 +1,17 @@
+#test1 {
+    position: absolute;
+    width: 100px;
+    top: 100px;
+    height: 100px;
+    left: 100px;
+    background-color: red;
+}
+
+#test2 {
+    position: absolute;
+    width: 100px;
+    top: 100px;
+    height: 100px;
+    left: 300px;
+    background-color: blue;
+}
