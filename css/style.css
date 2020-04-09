@@ -1,17 +1,26 @@
-#test1 {
+.d {
     position: absolute;
-    width: 100px;
-    top: 100px;
-    height: 100px;
-    left: 100px;
-    background-color: red;
+    width: 120px;
+    z-index: 1;
 }
 
-#test2 {
+.base {
+    position: absolute;
+    display: block;
+    width: 893px;
+    margin: auto;
+}
+
+.trashBox {
     position: absolute;
     width: 100px;
-    top: 100px;
-    height: 100px;
-    left: 300px;
-    background-color: blue;
+    left: 1000px;
+    top: 500px;
+}
+
+.appendBtn {
+    position: absolute;
+    top: 300px;
+    left: 980px;
+    cursor: pointer;
 }
